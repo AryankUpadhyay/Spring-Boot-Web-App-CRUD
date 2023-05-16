@@ -41,7 +41,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 		}
 		return employee;
 	}
-
+	
+	//for deleting the user account
 	@Override
 	public void deleteEmployeeById(long id) {
 		// TODO Auto-generated method stub
